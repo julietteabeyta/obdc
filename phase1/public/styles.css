@@ -234,7 +234,7 @@ header img{
   padding: 3.2rem;
   z-index: 1;
   width: 35%;
-  margin: 0 auto 6rem;
+  margin: 45px auto 2rem;
   text-align: center;
 }
 .cta span {
@@ -258,11 +258,6 @@ header img{
 }
 .cta.reverse::before {
    transform: rotate(-2deg);
-}
-@media all and (max-width: 650px) {
-   .cta {left: 2rem; top: 3rem;}
-   .cta.title { font-size: 3rem; }
-   .cta.title span {font-size: 2rem;}
 }
 
 /**
@@ -415,4 +410,22 @@ header img{
 .survey-errors.active {
    display: block;
    text-align: center;
+}
+
+/**
+ * Media Queries
+ */
+@media all and (max-width: 650px) {
+  .cta {left: 2rem; top: 3rem;}
+  .cta.title { font-size: 3rem; }
+  .cta.title span {font-size: 2rem;}
+}
+@media all and (max-width: 1200px) {
+   .cta {width: 70%}
+}
+@media all and (max-width: 502px) {
+  .cta {left: 0; top: 2rem;}
+  .cta.title {font-size: 2rem;}
+  .cta.title span {font-size: 1rem;}
+  .modal-trigger{font-size: 1rem}
 }
