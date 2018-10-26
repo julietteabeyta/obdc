@@ -422,7 +422,7 @@ header img{
  * Media Queries
  */
 @media all and (max-width: 650px) {
-  .cta {left: 2rem; top: 3rem;}
+  .cta {left: 2rem; top: 3rem; margin: 1rem auto 5rem;}
   .cta.title { font-size: 3rem; }
   .cta.title span {font-size: 2rem;}
 }
